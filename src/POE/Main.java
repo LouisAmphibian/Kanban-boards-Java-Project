@@ -22,7 +22,7 @@ public class Main {
         while (true) { //using while loop to loop the question, ansewrs and conditon (Until the conditon true)
             //Displaying options for the user to choose
             String welcome = JOptionPane.showInputDialog("Welcome! Please choose the following:\n"
-                    + "1-Create an account(s)\n"
+                    + "1-Create an account\n"
                     + "2-Login into your account\n"
                     + "3-EXIT");
             int response = Integer.parseInt(welcome);
